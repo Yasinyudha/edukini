@@ -4,8 +4,18 @@ import { useNavigate } from "react-router-dom"
 
 function DaftarIsi() {
     const navigate = useNavigate()
+
     const onNavigateToQuiz = () => {
         navigate("/quiz-cover")
+    }
+    const onNavigateToFAQ = () => {
+        navigate("/faq")
+    }
+    const onNavigateToAnimasi = () => {
+        navigate("/animasi")
+    }
+    const onNavigateToPsikolog = () => {
+        navigate("/psikologi")
     }
 
     return (
@@ -63,6 +73,9 @@ function DaftarIsi() {
                 </Link>
 
                 <button className="quiz-button" onClick={onNavigateToQuiz}>Mainkan Quiz</button>
+                <button className="faq-button" onClick={onNavigateToFAQ}>FAQs</button>
+                <button className="faq-button" onClick={onNavigateToAnimasi}>Video Animasi</button>
+                <button className="faq-button" onClick={onNavigateToPsikolog}>Hubungi Psikolog dan Dokter Umum</button>
             </div>
         </>
     )

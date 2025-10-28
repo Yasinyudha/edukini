@@ -1,0 +1,15 @@
+.video-animasi-p {
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+    display: block;
+    margin-top: 20%;
+    margin-left: 5%;
+}
+.video-animasi {
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    border-radius: 12px;
+}

@@ -17,6 +17,12 @@ import Quiz3 from "./pages/Quiz/Quiz3";
 import Quiz4 from "./pages/Quiz/Quiz4";
 import Quiz5 from "./pages/Quiz/Quiz5";
 import HasilAkhir from "./pages/Quiz/HasilAkhir";
+import FAQ from "./pages/faq/faq";
+import Animasi from "./pages/Animasi/Animasi";
+import Psikolog from "./pages/Psikolog/Psikolog";
+import PsikologDokterUmum from "./pages/Psikolog/PsikologDokterUmum";
+import MeetDoctor from "./pages/Psikolog/MeetDoctors";
+import MeetPsychologist from "./pages/Psikolog/MeetPsychologist";
 
 function App() {
   const location = useLocation();
@@ -32,7 +38,13 @@ function App() {
       location.pathname === "/quiz-number-3" ||
       location.pathname === "/quiz-number-4" ||
       location.pathname === "/quiz-number-5" ||
-      location.pathname === "/hasil-akhir"
+      location.pathname === "/hasil-akhir" ||
+      location.pathname === "/faq" ||
+      location.pathname === "/animasi" ||
+      location.pathname === "/psikologi" ||
+      location.pathname === "/psikolog-dokter-umum" ||
+      location.pathname === "/meet-doctor" ||
+      location.pathname === "/meet-psychologist"
     ) {
       html.style.backgroundColor = "#2c2c2c";
     } else if (
@@ -72,6 +84,12 @@ function App() {
       <Route path="/quiz-number-4" element={<Quiz4 />} />
       <Route path="/quiz-number-5" element={<Quiz5 />} />
       <Route path="/hasil-akhir" element={<HasilAkhir />} />
+      <Route path="/faq" element={<FAQ />} />
+      <Route path="/animasi" element={<Animasi />} />
+      <Route path="/psikologi" element={<Psikolog />} />
+      <Route path="/psikolog-dokter-umum" element={<PsikologDokterUmum />} />
+      <Route path="/meet-doctor" element={<MeetDoctor />} />
+      <Route path="/meet-psychologist" element={<MeetPsychologist />} />
     </Routes>
   );
 }

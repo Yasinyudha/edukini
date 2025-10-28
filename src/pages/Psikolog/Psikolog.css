@@ -1,0 +1,73 @@
+.therapist-image {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+.therapist-image.therapist {
+    width: 70%;
+    margin-top: 40%;
+}
+.therapist-image.psychologist {
+    margin-top: 5%;
+    width: 70%;
+}
+.psy-doc-paragraph {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.psy-doc-paragraph {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.meet-doctor-paragraph {
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+}
+.doctors-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 2%;
+    border-bottom: 1px solid white;
+    margin-top: 10%;
+}
+.doctors-container.general {
+    margin-top: 5%;
+}
+.profile-picture {
+    width: 30%;
+    height: auto;              /* Keeps the original aspect ratio */
+    object-fit: contain;       /* Ensures it’s not stretched */
+    align-self: center;        /* Centers nicely in flex container */
+}
+.doctor-name {
+    font-size: 0.8em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.doctor-contact {
+    font-size: 0.7em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+}

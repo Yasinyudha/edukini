@@ -1,7 +1,13 @@
 import "./DaftarIsi.css"
 import { Link } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 
 function DaftarIsi() {
+    const navigate = useNavigate()
+    const onNavigateToQuiz = () => {
+        navigate("/quiz-cover")
+    }
+
     return (
         <>
             <div className="wrapper">
@@ -55,6 +61,8 @@ function DaftarIsi() {
                         <p>Emosi dan Kesiapan Mental Menghadapi Pernikahan Dini</p>
                     </div>
                 </Link>
+
+                <button className="quiz-button" onClick={onNavigateToQuiz}>Mainkan Quiz</button>
             </div>
         </>
     )

@@ -73,3 +73,18 @@ a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
+
+/*Quiz*/
+.quiz-button {
+    margin: 0 auto;
+    display: block;
+    margin-top: 10%;
+    padding: 3% 25%;
+
+    background-color: white;
+    border-radius: 200px;
+    border-width: 0;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}

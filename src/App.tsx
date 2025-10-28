@@ -10,6 +10,13 @@ import PencegahanPernikahan from "./pages/PencegahanPernikahan/PencegahanPernika
 import DampakPernikahan from "./pages/DampakPernikahan/DampakPernikahan";
 import Peran from "./pages/Peran/Peran";
 import Emosi from "./pages/Emosi/Emosi";
+import Quiz from "./pages/Quiz/Quiz";
+import Quiz1 from "./pages/Quiz/Quiz1";
+import Quiz2 from "./pages/Quiz/Quiz2";
+import Quiz3 from "./pages/Quiz/Quiz3";
+import Quiz4 from "./pages/Quiz/Quiz4";
+import Quiz5 from "./pages/Quiz/Quiz5";
+import HasilAkhir from "./pages/Quiz/HasilAkhir";
 
 function App() {
   const location = useLocation();
@@ -17,7 +24,16 @@ function App() {
   useEffect(() => {
     const html = document.documentElement;
 
-    if (location.pathname === "/") {
+    if (
+      location.pathname === "/" ||
+      location.pathname === "/quiz-cover" ||
+      location.pathname === "/quiz-number-1" ||
+      location.pathname === "/quiz-number-2" ||
+      location.pathname === "/quiz-number-3" ||
+      location.pathname === "/quiz-number-4" ||
+      location.pathname === "/quiz-number-5" ||
+      location.pathname === "/hasil-akhir"
+    ) {
       html.style.backgroundColor = "#2c2c2c";
     } else if (
       location.pathname === "/daftar-isi" ||
@@ -43,12 +59,19 @@ function App() {
       <Route path="/" element={<MenuUtama />} />
       <Route path="/daftar-isi" element={<DaftarIsi />} />
       <Route path="/definisi" element={<DefinisiPernikahan />} />
-      <Route path="/faktor-risiko" element={<FaktorRisiko  />} />
-      <Route path="/angka-kejadian" element={<AngkaKejadian/>} />
-      <Route path="/pencegahan-pernikahan" element={<PencegahanPernikahan/>} />
-      <Route path="/dampak-pernikahan" element={<DampakPernikahan/>} />
-      <Route path="/peran" element={<Peran/>} />
-      <Route path="/kesiapan-mental" element={<Emosi/>} />
+      <Route path="/faktor-risiko" element={<FaktorRisiko />} />
+      <Route path="/angka-kejadian" element={<AngkaKejadian />} />
+      <Route path="/pencegahan-pernikahan" element={<PencegahanPernikahan />} />
+      <Route path="/dampak-pernikahan" element={<DampakPernikahan />} />
+      <Route path="/peran" element={<Peran />} />
+      <Route path="/kesiapan-mental" element={<Emosi />} />
+      <Route path="/quiz-cover" element={<Quiz />} />
+      <Route path="/quiz-number-1" element={<Quiz1 />} />
+      <Route path="/quiz-number-2" element={<Quiz2 />} />
+      <Route path="/quiz-number-3" element={<Quiz3 />} />
+      <Route path="/quiz-number-4" element={<Quiz4 />} />
+      <Route path="/quiz-number-5" element={<Quiz5 />} />
+      <Route path="/hasil-akhir" element={<HasilAkhir />} />
     </Routes>
   );
 }

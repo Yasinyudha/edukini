@@ -71,7 +71,7 @@
 }
 
 .back-white-arrow {
-    position: fixed;
+    position: absolute;
     width: 8%;
     bottom: 0;
     left: 0;
@@ -165,4 +165,26 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: white;
+}
+.share-paragraph {
+    margin-top: 10%;
+    margin-right: 0.5%;
+    color: white;
+    font-size: 0.7em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: right;
+}
+.button-share {
+    margin-left: auto;
+    display: block;
+    width: 25%;
+    border-radius: 8px;
+    background-color: #32CD32;
+    border-width: 0;
+}
+.share-icon {
+    margin-top: 7%;
+    margin-bottom: 7%;
+    width: 40%;
 }

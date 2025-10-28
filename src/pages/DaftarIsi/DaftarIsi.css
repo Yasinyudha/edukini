@@ -1,0 +1,75 @@
+.full-image {
+  width: 50%;
+  display: block;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/*Khusus untuk card container definisi pernikahan*/
+.card-container-definisi {
+    width: 99%;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 40%;
+    padding-bottom: 1%;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2)
+}
+.definisi-pernikahan {
+    width: 88%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+    border-radius: 15px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2)
+}
+.card-container-definisi p {
+    display: block;
+    margin-top: -8%;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+/*Card container yang general*/
+.card-container-general {
+    width: 99%;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 45%;
+    padding-bottom: 1%;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2)
+}
+.general-image {
+    width: 88%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -115px;
+    border-radius: 40px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2)
+}
+.card-container-general p {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -28%;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}

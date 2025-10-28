@@ -1,0 +1,61 @@
+.full-image {
+  width: 50%;
+  display: block;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+/*Burger icon*/
+.burger-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8%;
+    margin-right: 6%;
+    margin-top: 5%;
+}
+
+/*Khusus untuk card container definisi pernikahan*/
+.definisi {
+    width: 99%;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 40%;
+    padding-bottom: 1%;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2)
+}
+.definisi-pernikahan-definisi {
+    width: 88%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+    border-radius: 15px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2)
+}
+.title-definisi {
+    display: block;
+    margin-top: -8%;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.paragraph-definisi {
+    display: block;
+    text-align: justify;
+    font-size: 0.98em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 0 5%;
+}
+
+/*Back arrow*/
+.back-arrow {
+    margin-top: 10%;
+    margin-left: 1%;
+    width: 8%;
+}

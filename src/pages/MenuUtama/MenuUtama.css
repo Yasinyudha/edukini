@@ -1,0 +1,62 @@
+.full-image {
+  width: 50%;
+  display: block;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.marriage-image {
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 45%;
+}
+
+.button-mulai {
+    margin: 0 auto;
+    display: block;
+    margin-top: 5%;
+    padding: 3% 25%;
+
+    background-color: white;
+    border-radius: 200px;
+    border-width: 0;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.app-title {
+    margin: 0 auto;
+    display: block;
+    margin-top: 5%;
+    text-align: center;
+
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.powered-by-wrapper {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.powered-by-p {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 15%;
+    padding-bottom: 3%;
+    width: 80%;
+
+    border-bottom: 2px solid white;
+
+    font-size: 0.7em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: white;
+}

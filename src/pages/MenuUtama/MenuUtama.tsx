@@ -44,7 +44,7 @@ function MenuUtama() {
                 <>
                     <div className="wrapper fade-in">
                         <img src="/Logo Samping.png" alt="Logo" className="full-image" />
-                        <img src="/MenuUtama/thinker.png" alt="Transition" className="transition-image" />
+                        <img src="/MenuUtama/Women Thinking.png" alt="Transition" className="transition-image" />
                         <p className="transition-text">Apakah kalian tau pernikahan dini?</p>
                     </div>
                 </>

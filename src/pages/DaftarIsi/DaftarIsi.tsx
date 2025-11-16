@@ -37,13 +37,6 @@ function DaftarIsi() {
                     </div>
                 </Link>
 
-                <Link to="/angka-kejadian">
-                    <div className="card-container-general">
-                        <img src="/ListGambar/Angka Kejadian.png" alt="Faktor Pernikahan" className="general-image"></img>
-                        <p>Angka Kejadian Pernikahan Dini di Indonesia</p>
-                    </div>
-                </Link>
-
                 <Link to="/pencegahan-pernikahan">
                     <div className="card-container-general">
                         <img src="/ListGambar/Pencegahan Pernikahan.png" alt="Faktor Pernikahan" className="general-image"></img>

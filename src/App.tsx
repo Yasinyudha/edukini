@@ -5,7 +5,6 @@ import "./App.css";
 import DaftarIsi from "./pages/DaftarIsi/DaftarIsi";
 import DefinisiPernikahan from "./pages/DefinisiPernikahan/DefinisiPernikahan";
 import FaktorRisiko from "./pages/FaktorRisiko/FaktorRisiko";
-import AngkaKejadian from "./pages/AngkaKejadian/AngkaKejadian";
 import PencegahanPernikahan from "./pages/PencegahanPernikahan/PencegahanPernikahan";
 import DampakPernikahan from "./pages/DampakPernikahan/DampakPernikahan";
 import Peran from "./pages/Peran/Peran";
@@ -23,6 +22,7 @@ import Psikolog from "./pages/Psikolog/Psikolog";
 import PsikologDokterUmum from "./pages/Psikolog/PsikologDokterUmum";
 import MeetDoctor from "./pages/Psikolog/MeetDoctors";
 import MeetPsychologist from "./pages/Psikolog/MeetPsychologist";
+import BackgroundMusic from "./pages/Services/music";
 
 function App() {
   const location = useLocation();
@@ -51,7 +51,6 @@ function App() {
       location.pathname === "/daftar-isi" ||
       location.pathname === "/definisi" ||
       location.pathname === "/faktor-risiko" ||
-      location.pathname === "/angka-kejadian" ||
       location.pathname === "/pencegahan-pernikahan" ||
       location.pathname === "/dampak-pernikahan" ||
       location.pathname === "/peran" ||
@@ -67,12 +66,13 @@ function App() {
   }, [location.pathname]);
 
   return (
+    <>
+    <BackgroundMusic></BackgroundMusic>
     <Routes>
       <Route path="/" element={<MenuUtama />} />
       <Route path="/daftar-isi" element={<DaftarIsi />} />
       <Route path="/definisi" element={<DefinisiPernikahan />} />
       <Route path="/faktor-risiko" element={<FaktorRisiko />} />
-      <Route path="/angka-kejadian" element={<AngkaKejadian />} />
       <Route path="/pencegahan-pernikahan" element={<PencegahanPernikahan />} />
       <Route path="/dampak-pernikahan" element={<DampakPernikahan />} />
       <Route path="/peran" element={<Peran />} />
@@ -91,6 +91,7 @@ function App() {
       <Route path="/meet-doctor" element={<MeetDoctor />} />
       <Route path="/meet-psychologist" element={<MeetPsychologist />} />
     </Routes>
+    </>
   );
 }
 

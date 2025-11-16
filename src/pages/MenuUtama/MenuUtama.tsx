@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom"
 function MenuUtama() {
     const navigate = useNavigate()
     const handleStart = () => {
+        (window as any).startAppMusic?.()
         navigate("/daftar-isi")
     }
 

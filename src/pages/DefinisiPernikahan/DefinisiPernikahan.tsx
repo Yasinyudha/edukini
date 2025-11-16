@@ -1,4 +1,4 @@
-import "./DefinisiPernikahan.css"
+import "./DefinisiPernikahan.css";
 import { Link } from "react-router-dom";
 
 function DefinisiPernikahan() {
@@ -16,20 +16,21 @@ function DefinisiPernikahan() {
           ></img>
           <p className="title-definisi">Definisi Pernikahan Dini</p>
           <p className="paragraph-definisi">
-            Menurut Organisasi Kesehatan Dunia (WHO), pernikahan dini merujuk
-            pada pernikahan yang melibatkan individu yang berusia di bawah 19
-            tahun. UNICEF mendefinisikan pernikahan dini sebagai pernikahan yang
-            terjadi sebelum usia 18 tahun, baik melalui prosedur resmi maupun
-            tidak. Sementara itu, menurut Undang-Undang Republik Indonesia,
-            pernikahan dianggap sah apabila pria telah berusia minimal 19 tahun
-            dan wanita minimal 16 tahun. Jika dilakukan di bawah batas usia
-            tersebut, maka termasuk dalam kategori pernikahan dini
-            (Mutiah et al., n.d.).
+            Pernikahan dini adalah pernikahan yang melibatkan individu di bawah
+            usia 19 tahun menurut WHO (badan kesehatan internasional) menurut
+            UNICEF pernikahan dini di usia 18 tahun dan menurut hukum Indonesia
+            pernikahan dianggap sah minimal jika pria 19 tahun dan wanita
+            minimal 16 tahun. Jika pernikahan dilakukan di bawah usia tersebut,
+            maka termasuk pernikahan dini.
           </p>
         </div>
 
         <Link to="/daftar-isi">
-            <img src="/Assets/Back Arrow Asset.png" alt="back arrow" className="back-arrow"></img>
+          <img
+            src="/Assets/Back Arrow Asset.png"
+            alt="back arrow"
+            className="back-arrow"
+          ></img>
         </Link>
       </div>
     </>

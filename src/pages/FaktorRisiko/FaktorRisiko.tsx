@@ -16,30 +16,15 @@ function FaktorRisiko() {
           ></img>
           <p className="general-title">Faktor Risiko Pernikahan Dini</p>
           <p className="general-paragraph">
-            Pertama faktor ekonomi menjadi salah satu pendorong utama, di mana
-            keluarga dengan kondisi finansial yang sulit kerap memilih untuk
-            menikahkan anak mereka guna mengurangi beban ekonomi, dengan harapan
-            sang anak dapat memperoleh kehidupan yang lebih layak
-            <br />
-            <br />
-            Kedua, faktor pendidikan juga berpengaruh signifikan, remaja dengan
-            tingkat pendidikan rendah cenderung lebih mudah terlibat dalam
-            pernikahan dini karena kurangnya aktivitas atau tujuan jangka
-            panjang yang dapat menunda keputusan untuk menikah
-            <br />
-            <br />
-            Ketiga, faktor orang tua turut memengaruhi, terutama mereka yang
-            memiliki latar belakang pendidikan rendah, yang sering kali
-            mendorong anak menikah muda karena kekhawatiran terhadap pergaulan
-            bebas atau keinginan menjaga hubungan baik antar keluarga. Keempat,
-            adat dan kebiasaan setempat juga memiliki peran penting, terutama di
-            daerah yang masih memegang teguh tradisi, seperti anggapan bahwa
-            lamaran tidak boleh ditolak meskipun calon mempelai masih di bawah
-            umur.
-            <br />
-            <br />
-            Kelima kasus married by accident atau kehamilan di luar nikah juga
-            menjadi penyebab umum pernikahan dini.
+            Pernikahan dini dipengaruhi oleh faktor 
+            <ul className="general-paragraph">
+              <li>Ekonomi (keluarga miskin ingin mengurangi beban)</li>
+              <li>Pendidikan rendah</li>
+              <li>Pengaruh orang tua</li>
+              <li>Adat dan tradisi kuat</li>
+              <li>Kehamilan di luar nikah</li>
+            </ul>
+
           </p>
         </div>
 

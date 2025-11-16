@@ -16,28 +16,24 @@ function PencegahanPernikahan() {
           ></img>
           <p className="general-title">Pencegahan Pernikahan Dini</p>
           <p className="general-paragraph">
-            1. Menyediakan akses pendidikan formal yang layak bagi anak
-            laki-laki maupun perempuan sangat penting dalam pencegahan
-            pernikahan dini, dengan adanya kesetaraan dalam memperoleh
-            pendidikan, anak-anak akan memiliki rasa ingin tahu yang seimbang
-            dan cenderung lebih fokus pada proses belajar.
-            <br />
-            <br />
-            2. Memberikan penyuluhan mengenai pendidikan seksual sangat penting
-            untuk generasi muda tentang kesehatan reproduksi. 
-            <br />
-            <br />
-            3. Pemberdayaan masyarakat sangat penting agar lebih memahami
-            risiko pernikahan dini. Orang tua dan lingkungan sekitar merupakan
-            pihak terdekat yang berperan besar dalam mencegah terjadinya
-            pernikahan usia dini. 
-            <br />
-            <br />
-            4. Memperkuat peran pemerintah merupakan upaya penting dalam
-            mencegah pernikahan dini, khususnya untuk menghindari risiko
-            komplikasi kehamilan. Salah satu langkah yang dapat diambil adalah
-            dengan mendorong penetapan batas usia minimum pernikahan yang lebih
-            tinggi.
+            <ul className="general-paragraph">
+              <li>
+                Menyediakan akses pendidikan yang layak bagi anak laki-laki dan
+                perempuan agar fokus pada belajar.
+              </li>
+              <li>
+                Memberikan penyuluhan pendidikan seksual untuk meningkatkan
+                pengetahuan kesehatan reproduksi remaja.
+              </li>
+              <li>
+                Memberdayakan masyarakat dan orang tua agar memahami risiko
+                pernikahan dini.
+              </li>
+              <li>
+                Memperkuat peran pemerintah dengan menetapkan batas usia minimum
+                pernikahan yang lebih tinggi.
+              </li>
+            </ul>
           </p>
         </div>
 

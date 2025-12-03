@@ -46,7 +46,7 @@
 }
 .paragraph-definisi {
     display: block;
-    text-align: justify;
+    text-align: left;
     font-size: 0.98em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;

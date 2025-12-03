@@ -16,22 +16,18 @@ function PencegahanPernikahan() {
           ></img>
           <p className="general-title">Pencegahan Pernikahan Dini</p>
           <p className="general-paragraph">
-            <ul className="general-paragraph">
+            <ul className="general-paragraph ul-pencegahan">
               <li>
-                Menyediakan akses pendidikan yang layak bagi anak laki-laki dan
-                perempuan agar fokus pada belajar.
+                Fokus pada pendidikan dan karir.
               </li>
               <li>
-                Memberikan penyuluhan pendidikan seksual untuk meningkatkan
-                pengetahuan kesehatan reproduksi remaja.
+                Tidak terburu-buru dalam membuat keputusan tentang pernikahan.
               </li>
               <li>
-                Memberdayakan masyarakat dan orang tua agar memahami risiko
-                pernikahan dini.
+                Mengikuti kegiatan positif dan mengembangkan hobi.
               </li>
               <li>
-                Memperkuat peran pemerintah dengan menetapkan batas usia minimum
-                pernikahan yang lebih tinggi.
+                Meningkatkan kesadaran diri tentang risiko dan dampak pernikahan dini.
               </li>
             </ul>
           </p>

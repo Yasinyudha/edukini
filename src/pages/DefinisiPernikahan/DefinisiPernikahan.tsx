@@ -16,12 +16,10 @@ function DefinisiPernikahan() {
           ></img>
           <p className="title-definisi">Definisi Pernikahan Dini</p>
           <p className="paragraph-definisi">
-            Pernikahan dini adalah pernikahan yang melibatkan individu di bawah
-            usia 19 tahun menurut WHO (badan kesehatan internasional) menurut
-            UNICEF pernikahan dini di usia 18 tahun dan menurut hukum Indonesia
-            pernikahan dianggap sah minimal jika pria 19 tahun dan wanita
-            minimal 16 tahun. Jika pernikahan dilakukan di bawah usia tersebut,
-            maka termasuk pernikahan dini.
+            Pernikahan yang melibatkan individu di bawah usia 19 tahun
+            dikategorikan sebagai pernikahan dini oleh WHO, sedangkan menurut
+            hukum di Indonesia, pernikahan dianggap sah jika pria berusia
+            minimal 19 tahun dan wanita minimal 16 tahun.
           </p>
         </div>
 

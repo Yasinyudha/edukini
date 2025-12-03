@@ -55,6 +55,9 @@
     font-weight: 300;
     padding: 0 5%;
 }
+.general-paragraph.ul-risiko{
+    text-align: left;
+}
 
 /*Back arrow*/
 .back-arrow {

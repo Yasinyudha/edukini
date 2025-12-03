@@ -16,15 +16,11 @@ function FaktorRisiko() {
           ></img>
           <p className="general-title">Faktor Risiko Pernikahan Dini</p>
           <p className="general-paragraph">
-            Pernikahan dini dipengaruhi oleh faktor 
-            <ul className="general-paragraph">
-              <li>Ekonomi (keluarga miskin ingin mengurangi beban)</li>
-              <li>Pendidikan rendah</li>
-              <li>Pengaruh orang tua</li>
-              <li>Adat dan tradisi kuat</li>
-              <li>Kehamilan di luar nikah</li>
+            <ul className="general-paragraph ul-risiko">
+              <li>Faktor ekonomi ( kemiskinan yang memaksa orang tua menikahkan anak untuk mengurangi beban)</li>
+              <li>Faktor pendidikan yang rendah ( seringkali membuat anak putus sekolah dan tidak memiliki pengetahuan tentang dampak negatif pernikahan dini)</li>
+              <li>Tekanan sosial dan budaya (menganggap pernikahan dini sebagai cara menjaga kehormatan keluarga, menghindari aib seperti kehamilan di luar nikah, dan melestarikan tradisi turun-temurun)</li>
             </ul>
-
           </p>
         </div>
 

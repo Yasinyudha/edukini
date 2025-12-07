@@ -17,9 +17,9 @@ function FaktorRisiko() {
           <p className="general-title">Faktor Risiko Pernikahan Dini</p>
           <p className="general-paragraph">
             <ul className="general-paragraph ul-risiko">
-              <li>Faktor ekonomi ( kemiskinan yang memaksa orang tua menikahkan anak untuk mengurangi beban)</li>
-              <li>Faktor pendidikan yang rendah ( seringkali membuat anak putus sekolah dan tidak memiliki pengetahuan tentang dampak negatif pernikahan dini)</li>
-              <li>Tekanan sosial dan budaya (menganggap pernikahan dini sebagai cara menjaga kehormatan keluarga, menghindari aib seperti kehamilan di luar nikah, dan melestarikan tradisi turun-temurun)</li>
+              <li>Faktor ekonomi (kemiskinan yang memaksa orang tua menikahkan anak untuk mengurangi beban)</li>
+              <li>Faktor pendidikan yang rendah (seringkali membuat anak putus sekolah dan tidak memiliki pengetahuan tentang dampak negatif pernikahan dini)</li>
+              <li>Tekanan sosial dan budaya (menganggap pernikahan dini sebagai cara menjaga kehormatan keluarga, menghindari aib seperti kehamilan di luar nikah, dan melestarikan tradisi perjodohan turun-temurun)</li>
             </ul>
           </p>
         </div>

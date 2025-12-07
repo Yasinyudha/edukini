@@ -16,20 +16,47 @@ function PencegahanPernikahan() {
           ></img>
           <p className="general-title">Pencegahan Pernikahan Dini</p>
           <p className="general-paragraph">
-            <ul className="general-paragraph ul-pencegahan">
+            <ol className="general-paragraph ul-pencegahan">
               <li>
-                Fokus pada pendidikan dan karir.
+                Fokus pada pendidikan dan jangan biarkan pernikahan dini
+                menghalangi impian untuk mencapai tujuan karir yang diinginkan.
+                <br />
+                <br />
+                Pendidikan adalah kunci untuk mencapai impian, jadi fokus pada
+                pendidikan dan jangan biarkan apa pun menghalanginya.
               </li>
+              <br />
               <li>
-                Tidak terburu-buru dalam membuat keputusan tentang pernikahan.
+                Mengembangkan keterampilan dan mengikuti kegiatan yang positif
+                dapat membantu mengembangkan diri dan kepercayaan diri.
+                <br />
+                <br />
+                Kembangkan keterampilan dan ikuti kegiatan yang kamu suka,
+                seperti olahraga, seni, atau kegiatan sosial, untuk menjadi diri
+                yang lebih baik dan percaya diri.
               </li>
+              <br />
               <li>
-                Mengikuti kegiatan positif dan mengembangkan hobi.
+                Gunakan teknologi untuk mencari informasi tentang pernikahan
+                dini dan mengetahui resiko dan dampaknya.
+                <br />
+                <br />
+                Cari tahu tentang pernikahan dini dan resikonya, agar bisa
+                membuat keputusan yang tepat untuk masa depan.
               </li>
+              <br />
               <li>
-                Meningkatkan kesadaran diri tentang risiko dan dampak pernikahan dini.
+                Tidak terburu-buru dalam membuat keputusan tentang pernikahan,
+                ambil waktu untuk mempertimbangkan dan memikirkan apa yang ingin
+                dicapai dalam hidup.
+                <br />
+                <br />
+                Jangan terburu-buru membuat keputusan tentang pernikahan, ambil
+                waktu untuk memikirkan apa yang ingin dicapai dalam hidup dan
+                pastikan sudah siap untuk mengambil tanggung jawab sebagai
+                suami/istri.
               </li>
-            </ul>
+            </ol>
           </p>
         </div>
 

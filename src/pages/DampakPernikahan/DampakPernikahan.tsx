@@ -16,19 +16,20 @@ function DampakPernikahan() {
           ></img>
           <p className="general-title">Dampak Pernikahan Dini</p>
           <p className="general-paragraph">
-            Dampak Negatif:
-            <ul className="general-paragraph">
-              <li>Risiko fisik dan psikologis karena organ belum matang.</li>
-              <li>Trauma emosional dan penyesalan.</li>
-              <li>⁠Terbatasnya pengembangan diri dan partisipasi sosial.</li>
-              <li>⁠Beban ekonomi meningkat dan risiko perceraian.</li>
-            </ul>
+            Bagi remaja perempuan:
+            <ol className="general-paragraph">
+              <li>Pernikahan dini bisa menghambat masa depan meninggalkan sekolah dan peluang karir yang lebih baik, sehingga sulit untuk mencapai impian.</li>
+              <li>Punya kesempatan untuk mengatur tubuh dan keputusan sendiri Jangan biarkan orang lain memaksa melakukan sesuatu yang tidak kamu inginkan, termasuk memiliki anak sebelum siap.</li>
+              <li>⁠Pernikahan dini bisa membahayakan kesehatan  mengalami kesulitan saat hamil dan melahirkan, dan anak juga bisa memiliki risiko kesehatan yang lebih tinggi.</li>
+              <li>Jangan membiarkan diri menjadi korban kekerasan setiap orang berhak hidup aman dan bahagia, tanpa kekerasan fisik, emosional, atau seksual.</li>
+            </ol>
             <br />
-            Dampak Positif:
-            <ul className="general-paragraph">
-              <li>Meringankan beban keluarga.</li>
-              <li>⁠Melatih tanggung jawab dan kemandirian remaja.</li>
-            </ul>
+            
+            Bagi remaja laki-laki:
+            <ol className="general-paragraph">
+              <li>Pernikahan dini bisa membuat tidak siap menjadi suami dan ayah Belum mengetahui bagaimana cara menjadi kepala keluarga yang baik dan memberikan dukungan pada pasangan dan anak.</li>
+              <li>Harus siap mengambil tanggung jawab Pernikahan dini bisa membuat tidak tahu bagaimana cara mengelola keuangan dan membuat keputusan yang tepat untuk keluarga.</li>
+            </ol>
           </p>
         </div>
 

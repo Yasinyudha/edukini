@@ -14,9 +14,6 @@ function DaftarIsi() {
     const onNavigateToAnimasi = () => {
         navigate("/animasi")
     }
-    const onNavigateToPsikolog = () => {
-        navigate("/psikologi")
-    }
 
     return (
         <>
@@ -37,24 +34,10 @@ function DaftarIsi() {
                     </div>
                 </Link>
 
-                <Link to="/pencegahan-pernikahan">
-                    <div className="card-container-general">
-                        <img src="/ListGambar/Pencegahan Pernikahan.png" alt="Faktor Pernikahan" className="general-image"></img>
-                        <p>Pencegahan Pernikahan Dini</p>
-                    </div>
-                </Link>
-
                 <Link to="/dampak-pernikahan">
                     <div className="card-container-general">
                         <img src="/ListGambar/Dampak Pernikahan.png" alt="Faktor Pernikahan" className="general-image"></img>
                         <p>Dampak Pernikahan Dini</p>
-                    </div>
-                </Link>
-
-                <Link to="/peran">
-                    <div className="card-container-general">
-                        <img src="/ListGambar/Peran dan Tanggung Jawab.png" alt="Faktor Pernikahan" className="general-image"></img>
-                        <p>Peran dan Tanggung Jawab Dalam Pernikahan Dini</p>
                     </div>
                 </Link>
 
@@ -65,10 +48,23 @@ function DaftarIsi() {
                     </div>
                 </Link>
 
+                <Link to="/peran">
+                    <div className="card-container-general">
+                        <img src="/ListGambar/Peran dan Tanggung Jawab.png" alt="Faktor Pernikahan" className="general-image"></img>
+                        <p>Peran dan Tanggung Jawab Dalam Pernikahan Dini</p>
+                    </div>
+                </Link>
+
+                <Link to="/pencegahan-pernikahan">
+                    <div className="card-container-general">
+                        <img src="/ListGambar/Pencegahan Pernikahan.png" alt="Faktor Pernikahan" className="general-image"></img>
+                        <p>Pencegahan Pernikahan Dini</p>
+                    </div>
+                </Link>
+
                 <button className="quiz-button" onClick={onNavigateToQuiz}>Mainkan Quiz</button>
                 <button className="faq-button" onClick={onNavigateToFAQ}>FAQs</button>
                 <button className="faq-button" onClick={onNavigateToAnimasi}>Video Animasi</button>
-                <button className="faq-button" onClick={onNavigateToPsikolog}>Hubungi Psikolog dan Dokter Umum</button>
             </div>
         </>
     )

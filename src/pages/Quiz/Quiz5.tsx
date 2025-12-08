@@ -17,7 +17,7 @@ function Quiz5() {
     <>
       <div className="wrapper">
         <img src="/Logo Samping.png" alt="Logo" className="full-image" />
-        <img src="/Assets/White Burger Icon Asset.png" className="burger-icon-white" />
+        <img src="/Assets/Burger Icon Asset.png" className="burger-icon-white" />
 
         <div className="wrapper-card">
           <img
@@ -38,7 +38,7 @@ function Quiz5() {
         <p className="score-display">Score Anda saat ini:<br/>{score}</p>
 
         <Link to="/quiz-number-4">
-          <img src="/Assets/White Arrow Asset.png" alt="white arrow" className="back-white-arrow" />
+          <img src="/Assets/Back Arrow Asset.png" alt="white arrow" className="back-white-arrow" />
         </Link>
       </div>
     </>

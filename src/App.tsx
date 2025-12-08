@@ -32,12 +32,6 @@ function App() {
 
     if (
       location.pathname === "/" ||
-      location.pathname === "/quiz-cover" ||
-      location.pathname === "/quiz-number-1" ||
-      location.pathname === "/quiz-number-2" ||
-      location.pathname === "/quiz-number-3" ||
-      location.pathname === "/quiz-number-4" ||
-      location.pathname === "/quiz-number-5" ||
       location.pathname === "/hasil-akhir" ||
       location.pathname === "/faq" ||
       location.pathname === "/animasi" ||
@@ -54,7 +48,13 @@ function App() {
       location.pathname === "/pencegahan-pernikahan" ||
       location.pathname === "/dampak-pernikahan" ||
       location.pathname === "/peran" ||
-      location.pathname === "/kesiapan-mental"
+      location.pathname === "/kesiapan-mental" ||
+      location.pathname === "/quiz-cover" ||
+      location.pathname === "/quiz-number-1" ||
+      location.pathname === "/quiz-number-2" ||
+      location.pathname === "/quiz-number-3" ||
+      location.pathname === "/quiz-number-4" ||
+      location.pathname === "/quiz-number-5"
     ) {
       html.style.backgroundColor = "#FFD7A8";
       html.style.backgroundImage = 'url("/ListGambar/Vector Uncropped.png")';

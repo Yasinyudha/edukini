@@ -15,13 +15,13 @@ function Quiz() {
         <>
             <div className="wrapper">
                 <img src="/Logo Samping.png" alt="Logo" className="full-image"></img>
-                <img src="/Assets/White Burger Icon Asset.png" className="burger-icon-white"></img>
+                <img src="/Assets/Burger Icon Asset.png" className="burger-icon-white"></img>
 
                 <img src="/Quiz/Quiz Image Cover.png" alt="quiz image" className="quiz-image"></img>
                 <button className="button-mulai" onClick={handleStart}>MULAI QUIZ</button>
 
                 <Link to="/daftar-isi">
-                    <img src="/Assets/White Arrow Asset.png" alt="white arrow" className="back-white-arrow"></img>
+                    <img src="/Assets/Back Arrow Asset.png" alt="white arrow" className="back-white-arrow"></img>
                 </Link>
             </div>
         </>

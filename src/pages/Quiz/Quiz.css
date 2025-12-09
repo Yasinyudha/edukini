@@ -153,7 +153,7 @@
     font-size: 1.3em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    color: white;
+    color: #2c2c2c;
 }
 .score-paragraph {
     display: block;
@@ -162,12 +162,12 @@
     font-size: 3em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    color: white;
+    color: #2c2c2c;
 }
 .share-paragraph {
     margin-top: 10%;
-    margin-right: 0.5%;
-    color: white;
+    margin-right: 5%;
+    color: #2c2c2c;
     font-size: 0.7em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -175,6 +175,7 @@
 }
 .button-share {
     margin-left: auto;
+    margin-right: 5%;
     display: block;
     width: 25%;
     border-radius: 8px;

@@ -46,7 +46,6 @@ function App() {
         html.style.backgroundRepeat = "no-repeat";
       }
     } else if (
-      location.pathname === "/hasil-akhir" ||
       location.pathname === "/psikologi" ||
       location.pathname === "/psikolog-dokter-umum" ||
       location.pathname === "/meet-doctor" ||
@@ -70,7 +69,8 @@ function App() {
       location.pathname === "/quiz-number-4" ||
       location.pathname === "/quiz-number-5" ||
       location.pathname === "/faq" ||
-      location.pathname === "/animasi"
+      location.pathname === "/animasi" ||
+      location.pathname === "/hasil-akhir"
     ) {
       html.style.backgroundColor = "#FFD7A8";
       html.style.backgroundImage = 'url("/ListGambar/Vector Uncropped.png")';

@@ -16,7 +16,7 @@ function HasilAkhir() {
     <>
       <div className="wrapper">
         <img src="/Logo Samping.png" alt="Logo" className="full-image" />
-        <img src="/Assets/White Burger Icon Asset.png" className="burger-icon-white" />
+        <img src="/Assets/Burger Icon Asset.png" className="burger-icon-white" />
         <img src="/Quiz/Medal.png" className="quiz-medal" />
 
         <p className="hasil-akhir-paragraph">
@@ -32,7 +32,7 @@ function HasilAkhir() {
         </button>
 
         <Link to="/daftar-isi" onClick={resetScore}>
-          <img src="/Assets/White Arrow Asset.png" alt="white arrow" className="back-white-arrow" />
+          <img src="/Assets/Back Arrow Asset.png" alt="white arrow" className="back-white-arrow" />
         </Link>
       </div>
     </>

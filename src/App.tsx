@@ -1,5 +1,5 @@
 import { Routes, Route, useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import MenuUtama from "./pages/MenuUtama/MenuUtama";
 import "./App.css";
 import DaftarIsi from "./pages/DaftarIsi/DaftarIsi";
@@ -26,6 +26,7 @@ import BackgroundMusic from "./pages/Services/music";
 
 function App() {
   const location = useLocation();
+  const [isTransitioning, setIsTransitioning] = useState(false);
 
   useEffect(() => {
     const html = document.documentElement;
@@ -33,14 +34,20 @@ function App() {
     if (
       location.pathname === "/" ||
       location.pathname === "/hasil-akhir" ||
-      location.pathname === "/faq" ||
-      location.pathname === "/animasi" ||
       location.pathname === "/psikologi" ||
       location.pathname === "/psikolog-dokter-umum" ||
       location.pathname === "/meet-doctor" ||
       location.pathname === "/meet-psychologist"
     ) {
-      html.style.backgroundColor = "#2c2c2c";
+      if (isTransitioning) {
+        html.style.backgroundColor = "#FFD7A8";
+        html.style.backgroundImage = 'url("/ListGambar/Vector Uncropped.png")';
+        html.style.backgroundSize = "80% auto";
+        html.style.backgroundRepeat = "no-repeat";
+      } else {
+        html.style.backgroundColor = "#2c2c2c";
+        html.style.backgroundImage = "";
+      }
     } else if (
       location.pathname === "/daftar-isi" ||
       location.pathname === "/definisi" ||
@@ -54,7 +61,9 @@ function App() {
       location.pathname === "/quiz-number-2" ||
       location.pathname === "/quiz-number-3" ||
       location.pathname === "/quiz-number-4" ||
-      location.pathname === "/quiz-number-5"
+      location.pathname === "/quiz-number-5" ||
+      location.pathname === "/faq" ||
+      location.pathname === "/animasi"
     ) {
       html.style.backgroundColor = "#FFD7A8";
       html.style.backgroundImage = 'url("/ListGambar/Vector Uncropped.png")';
@@ -63,34 +72,40 @@ function App() {
     } else {
       html.style.backgroundColor = "white";
     }
-  }, [location.pathname]);
+  }, [location.pathname, isTransitioning]);
 
   return (
     <>
-    <BackgroundMusic></BackgroundMusic>
-    <Routes>
-      <Route path="/" element={<MenuUtama />} />
-      <Route path="/daftar-isi" element={<DaftarIsi />} />
-      <Route path="/definisi" element={<DefinisiPernikahan />} />
-      <Route path="/faktor-risiko" element={<FaktorRisiko />} />
-      <Route path="/pencegahan-pernikahan" element={<PencegahanPernikahan />} />
-      <Route path="/dampak-pernikahan" element={<DampakPernikahan />} />
-      <Route path="/peran" element={<Peran />} />
-      <Route path="/kesiapan-mental" element={<Emosi />} />
-      <Route path="/quiz-cover" element={<Quiz />} />
-      <Route path="/quiz-number-1" element={<Quiz1 />} />
-      <Route path="/quiz-number-2" element={<Quiz2 />} />
-      <Route path="/quiz-number-3" element={<Quiz3 />} />
-      <Route path="/quiz-number-4" element={<Quiz4 />} />
-      <Route path="/quiz-number-5" element={<Quiz5 />} />
-      <Route path="/hasil-akhir" element={<HasilAkhir />} />
-      <Route path="/faq" element={<FAQ />} />
-      <Route path="/animasi" element={<Animasi />} />
-      <Route path="/psikologi" element={<Psikolog />} />
-      <Route path="/psikolog-dokter-umum" element={<PsikologDokterUmum />} />
-      <Route path="/meet-doctor" element={<MeetDoctor />} />
-      <Route path="/meet-psychologist" element={<MeetPsychologist />} />
-    </Routes>
+      <BackgroundMusic></BackgroundMusic>
+      <Routes>
+        <Route
+          path="/"
+          element={<MenuUtama setIsTransitioning={setIsTransitioning} />}
+        />
+        <Route path="/daftar-isi" element={<DaftarIsi />} />
+        <Route path="/definisi" element={<DefinisiPernikahan />} />
+        <Route path="/faktor-risiko" element={<FaktorRisiko />} />
+        <Route
+          path="/pencegahan-pernikahan"
+          element={<PencegahanPernikahan />}
+        />
+        <Route path="/dampak-pernikahan" element={<DampakPernikahan />} />
+        <Route path="/peran" element={<Peran />} />
+        <Route path="/kesiapan-mental" element={<Emosi />} />
+        <Route path="/quiz-cover" element={<Quiz />} />
+        <Route path="/quiz-number-1" element={<Quiz1 />} />
+        <Route path="/quiz-number-2" element={<Quiz2 />} />
+        <Route path="/quiz-number-3" element={<Quiz3 />} />
+        <Route path="/quiz-number-4" element={<Quiz4 />} />
+        <Route path="/quiz-number-5" element={<Quiz5 />} />
+        <Route path="/hasil-akhir" element={<HasilAkhir />} />
+        <Route path="/faq" element={<FAQ />} />
+        <Route path="/animasi" element={<Animasi />} />
+        <Route path="/psikologi" element={<Psikolog />} />
+        <Route path="/psikolog-dokter-umum" element={<PsikologDokterUmum />} />
+        <Route path="/meet-doctor" element={<MeetDoctor />} />
+        <Route path="/meet-psychologist" element={<MeetPsychologist />} />
+      </Routes>
     </>
   );
 }

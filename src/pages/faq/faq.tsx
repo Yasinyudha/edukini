@@ -68,7 +68,7 @@ function FAQ() {
         <>
             <div className="wrapper">
                 <img src="/Logo Samping.png" alt="Logo" className="full-image"></img>
-                <img src="/Assets/White Burger Icon Asset.png" className="burger-icon-white"></img>
+                <img src="/Assets/Burger Icon Asset.png" className="burger-icon-white"></img>
 
                 <p className="headline">
                     FAQs
@@ -82,7 +82,7 @@ function FAQ() {
                                 {faq.question}
                             </p>
                             <img
-                                src="/Assets/Down Arrow White.png"
+                                src="/Assets/Down Arrow Black.png"
                                 alt="toggle arrow"
                                 className={`arrow-icon ${openIndex === index ? "open" : ""}`}
                                 onClick={() => toggleFAQ(index)}
@@ -105,7 +105,7 @@ function FAQ() {
                 </div>
 
                 <Link to="/daftar-isi">
-                    <img src="/Assets/White Arrow Asset.png" alt="white arrow" className="back-white-arrow"></img>
+                    <img src="/Assets/Back Arrow Asset.png" alt="white arrow" className="back-white-arrow"></img>
                 </Link>
             </div>
         </>

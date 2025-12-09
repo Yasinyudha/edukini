@@ -2,7 +2,7 @@ import "./MenuUtama.css"
 import { useNavigate } from "react-router-dom"
 import { useState } from "react"
 
-function MenuUtama() {
+function MenuUtama({ setIsTransitioning } : { setIsTransitioning: (value: boolean) => void}) {
     const navigate = useNavigate()
     const [transitioning, setTransitioning] = useState(false)
 
@@ -12,9 +12,11 @@ function MenuUtama() {
 
         // fade-out old UI
         setTransitioning(true)
+        setIsTransitioning(true)
 
         // go to next page after 2 seconds
         setTimeout(() => {
+            setIsTransitioning(false)
             navigate("/daftar-isi")
         }, 2000)
     }

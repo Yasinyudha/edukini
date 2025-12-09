@@ -12,11 +12,11 @@
     font-size: 1.4em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    color: white;
-    margin-top: 15%;
+    color: #2c2c2c;
+    margin-top: 40%;
     padding-bottom: 5%;
     text-align: center;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #2c2c2c;
 }
 
 /*The faq container*/
@@ -34,7 +34,7 @@
     font-size: 0.7em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    color: white;
+    color: #2c2c2c;
     margin-left: 7.7%;
 }
 .arrow-icon {
@@ -57,7 +57,7 @@
     font-size: 0.7em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    color: white;
+    color: #2c2c2c;
     margin-left: 7.7%;
     margin-top: 1%;
     margin-bottom: -6%;
@@ -66,5 +66,5 @@
     display: block;
     margin: 0 auto;
     width: 85%;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #2c2c2c;
 }

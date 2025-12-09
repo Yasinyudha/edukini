@@ -32,12 +32,7 @@ function App() {
     const html = document.documentElement;
 
     if (
-      location.pathname === "/" ||
-      location.pathname === "/hasil-akhir" ||
-      location.pathname === "/psikologi" ||
-      location.pathname === "/psikolog-dokter-umum" ||
-      location.pathname === "/meet-doctor" ||
-      location.pathname === "/meet-psychologist"
+      location.pathname === "/"
     ) {
       if (isTransitioning) {
         html.style.backgroundColor = "#FFD7A8";
@@ -46,9 +41,21 @@ function App() {
         html.style.backgroundRepeat = "no-repeat";
       } else {
         html.style.backgroundColor = "#2c2c2c";
-        html.style.backgroundImage = "";
+        html.style.backgroundImage = 'url("/ListGambar/Lingkaran Cream.png")';
+        html.style.backgroundSize = "80% auto";
+        html.style.backgroundRepeat = "no-repeat";
       }
     } else if (
+      location.pathname === "/hasil-akhir" ||
+      location.pathname === "/psikologi" ||
+      location.pathname === "/psikolog-dokter-umum" ||
+      location.pathname === "/meet-doctor" ||
+      location.pathname === "/meet-psychologist"
+    ) {
+      html.style.backgroundColor = "#2c2c2c";
+    }
+    
+    else if (
       location.pathname === "/daftar-isi" ||
       location.pathname === "/definisi" ||
       location.pathname === "/faktor-risiko" ||

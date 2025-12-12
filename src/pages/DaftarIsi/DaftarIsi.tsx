@@ -63,7 +63,7 @@ function DaftarIsi() {
                 </Link>
 
                 <button className="quiz-button" onClick={onNavigateToQuiz}>Mainkan Quiz</button>
-                <button className="faq-button" onClick={onNavigateToFAQ}>FAQs</button>
+                <button className="faq-button" onClick={onNavigateToFAQ}>Q&A</button>
                 <button className="faq-button" onClick={onNavigateToAnimasi}>Video Animasi</button>
             </div>
         </>

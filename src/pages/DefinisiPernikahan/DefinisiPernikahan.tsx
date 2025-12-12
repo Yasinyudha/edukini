@@ -10,7 +10,7 @@ function DefinisiPernikahan() {
 
         <div className="definisi">
           <img
-            src="/ListGambar/Definisi Pernikahan.png"
+            src="/ListGambar/Definisi Pernikahan-min.png"
             alt="Definisi Pernikahan"
             className="definisi-pernikahan-definisi"
           ></img>

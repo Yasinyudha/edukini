@@ -10,7 +10,7 @@ function FaktorRisiko() {
 
         <div className="general-penjelasan">
           <img
-            src="/ListGambar/Faktor Risiko Pernikahan Dini.png"
+            src="/ListGambar/Faktor Risiko Pernikahan Dini-min.png"
             alt="Definisi Pernikahan"
             className="general-img"
           ></img>

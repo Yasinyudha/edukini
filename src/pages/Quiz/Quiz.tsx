@@ -17,7 +17,7 @@ function Quiz() {
                 <img src="/Logo Samping.png" alt="Logo" className="full-image"></img>
                 <img src="/Assets/Burger Icon Asset.png" className="burger-icon-white"></img>
 
-                <img src="/Quiz/Quiz Image Cover.png" alt="quiz image" className="quiz-image"></img>
+                <img src="/Quiz/Quiz Image Cover-min.png" alt="quiz image" className="quiz-image"></img>
                 <button className="button-mulai" onClick={handleStart}>MULAI QUIZ</button>
 
                 <Link to="/daftar-isi">

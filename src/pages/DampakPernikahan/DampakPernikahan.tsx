@@ -10,7 +10,7 @@ function DampakPernikahan() {
 
         <div className="general-penjelasan">
           <img
-            src="/ListGambar/Dampak Pernikahan.png"
+            src="/ListGambar/Dampak Pernikahan-min.png"
             alt="Definisi Pernikahan"
             className="general-img"
           ></img>

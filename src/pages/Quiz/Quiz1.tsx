@@ -22,7 +22,7 @@ function Quiz1() {
 
         <div className="wrapper-card">
           <img
-            src="/Quiz/Box Chat 1.png"
+            src="/Quiz/Box Chat 1-min.png"
             alt="Definisi Pernikahan"
             className="box-chat"
           />

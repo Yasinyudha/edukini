@@ -10,7 +10,7 @@ function AngkaKejadian() {
 
         <div className="general-penjelasan">
           <img
-            src="/ListGambar/Angka Kejadian.png"
+            src="/ListGambar/Angka Kejadian-min.png"
             alt="Definisi Pernikahan"
             className="general-img"
           ></img>

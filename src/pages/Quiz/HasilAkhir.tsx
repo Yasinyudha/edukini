@@ -17,7 +17,7 @@ function HasilAkhir() {
       <div className="wrapper">
         <img src="/Logo Samping.png" alt="Logo" className="full-image" />
         <img src="/Assets/Burger Icon Asset.png" className="burger-icon-white" />
-        <img src="/Quiz/Medal.png" className="quiz-medal" />
+        <img src="/Quiz/Medal-min.png" className="quiz-medal" />
 
         <p className="hasil-akhir-paragraph">
           Selamat! Skor quizmu adalah...

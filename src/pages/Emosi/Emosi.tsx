@@ -10,7 +10,7 @@ function Emosi() {
 
         <div className="general-penjelasan">
           <img
-            src="/ListGambar/Emosi dan Kesiapan.png"
+            src="/ListGambar/Emosi dan Kesiapan-min.png"
             alt="Definisi Pernikahan"
             className="general-img"
           ></img>

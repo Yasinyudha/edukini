@@ -10,7 +10,7 @@ function PencegahanPernikahan() {
 
         <div className="general-penjelasan">
           <img
-            src="/ListGambar/Pencegahan Pernikahan.png"
+            src="/ListGambar/Pencegahan Pernikahan-min.png"
             alt="Definisi Pernikahan"
             className="general-img"
           ></img>

@@ -71,7 +71,7 @@ function FAQ() {
                 <img src="/Assets/Burger Icon Asset.png" className="burger-icon-white"></img>
 
                 <p className="headline">
-                    FAQs
+                    Questions and Answers
                 </p>
 
                 <div className="faq-container">
